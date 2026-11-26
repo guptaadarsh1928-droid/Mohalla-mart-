@@ -1,0 +1,11 @@
+name: Mohalla Mart Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Build
+        run: echo "Mohalla Mart Build Started"
